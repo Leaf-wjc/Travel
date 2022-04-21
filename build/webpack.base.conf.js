@@ -28,6 +28,7 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
       'styles': resolve('src/assets/styles'),
+      'test': resolve('node_modules/vue-awesome-swiper/node_modules/swiper/dist/css'),
     }
   },
   module: {
