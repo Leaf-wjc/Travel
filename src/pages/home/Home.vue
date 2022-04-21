@@ -1,10 +1,17 @@
 <template>
-    <div>hello world</div>
+    <div>
+        <home-header></home-header>
+    </div>
 </template>
 
 <script>
+import HomeHeader from './components/Header.vue'
 export default {
-    name:'Home'
+    name:'Home',
+    //声明局部组件
+    components:{
+        HomeHeader
+    }
 }
 </script>
 
