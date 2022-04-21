@@ -5,6 +5,7 @@
 </template>
 
 <script>
+// 导入组件
 import HomeHeader from './components/Header.vue'
 export default {
     name:'Home',
